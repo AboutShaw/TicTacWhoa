@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './header';
+import PlayDisp from './player_displayer';
+import TurnDisplay from './turn_diplay';
+import GameBoard from './game_board';
+import Reset from './reset';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div id="appBody">
+      <Header />
+      <PlayDisp />
+      <TurnDisplay />
+      <GameBoard />
+      <Reset />
+    </div> 
+  )
 }
 
 export default App;
