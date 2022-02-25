@@ -4,20 +4,17 @@
   width: 400px;
 }
 
-.header {
-  justify-content: center;
-}
-
 h1 {
   padding-top: 20px;
   padding-bottom: 0px;
   text-align: center;
   font-weight: bolder;
   color: azure;
+  justify-content: center;
 }
 
 h3 {
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 #playerDisplay {
@@ -47,12 +44,6 @@ input {
   justify-content: center;
 }
 
-#game button {
-  width: 100px;
-  height: 100px;
-  font-family: sans-serif;
-}
-
 .nameInput {
   justify-content: space-between;
   display: flex;
@@ -72,5 +63,12 @@ input {
 
 #resetArea {
   padding-bottom: 20px;
-  padding-top: 10px
+  padding-top: 10px;
+}
+
+#game img {
+  width: 90px;
+  height: 90px;
+  border: 2px solid;
+  background-color: white;
 }

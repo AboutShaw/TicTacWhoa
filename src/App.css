@@ -4,5 +4,11 @@
   margin: 0;
   padding: 0;
   border-radius: 20px;
-  font-family:sans-serif;
+  font-family: sans-serif;
+}
+
+#appBody {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
