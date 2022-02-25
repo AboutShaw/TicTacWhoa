@@ -1,7 +1,7 @@
 #appBody {
   justify-content: center;
   background-color: slategray;
-  margin: 50px;
+  width: 400px;
 }
 
 .header {
@@ -14,6 +14,9 @@ h1 {
   text-align: center;
   font-weight: bolder;
   color: azure;
+}
+
+h3 {
   font-family:sans-serif;
 }
 
@@ -39,8 +42,9 @@ input {
 }
 
 #game {
+  padding: 5px;
+  display: grid;
   justify-content: center;
-  padding: 10px;
 }
 
 #game button {
@@ -58,4 +62,15 @@ input {
   padding: 5px;
   display: grid;
   justify-content: center;
+}
+
+#reset {
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+#resetArea {
+  padding-bottom: 20px;
+  padding-top: 10px
 }

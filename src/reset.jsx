@@ -1,5 +1,9 @@
 const Reset = () => {
-    return <button>Reset, yall tokens</button>
-}
+    return (
+            <div id="resetArea">
+                <button id="reset" >Reset, y'all tokens</button>
+            </div>
+    )
+}   
 
 export default Reset;
